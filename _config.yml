@@ -1,0 +1,12 @@
+# Site settings
+title: Trunk Club Tech Blog
+email: engineering@trunkclub.com
+description: > # this means to ignore newlines until "baseurl:"
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://trunkclub.com/engineering" # the base hostname & protocol for your site
+twitter_username: trunkclubtech
+github_username:  trunkclub
+
+# Build settings
+markdown: kramdown
