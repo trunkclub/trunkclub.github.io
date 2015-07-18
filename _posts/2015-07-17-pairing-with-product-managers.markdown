@@ -4,6 +4,7 @@ title:  "Pairing with Product Managers"
 author: Jeff Meyers
 date:   2015-07-17 22:38:28
 categories: culture pairing
+comments: true
 excerpt_separator: <!--more-->
 ---
 
