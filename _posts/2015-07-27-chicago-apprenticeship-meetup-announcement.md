@@ -2,7 +2,7 @@
 layout: post
 title: Chicago Apprenticeship Meetup Announcement
 author: Amelia Padua
-date: 2015-07-23 14:55:06
+date: 2015-07-25 14:55:06
 comments: true
 excerpt_separator: <!--more-->
 ---
