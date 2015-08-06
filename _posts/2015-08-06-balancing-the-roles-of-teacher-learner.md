@@ -21,7 +21,7 @@ Around that time I was approached by a friend gauging my interest in doing some 
 
 ### Bringing it Full Circle
 
-Teaching in these environments is thrilling. You get exposed to some seriously talented and motivated inviduals. But most of all, the personally rewarding (and frankly unexpected) product of this process has been seeing how teaching and learning so elegantly complement and inform one another. Formulating lesson plans, giving demos, and being able to simplify concepts and practices down to something easily understandable acts as a testament for how well you've actually learned that thing. Following the revolution of learning to teaching has become a great way for me to judge my understanding of something I practice. It acts as a meter to indicate what stage of learning or teaching I'm at (and when to switch focuses to balance those out).
+Teaching in these environments is thrilling. You get exposed to some seriously talented and motivated inviduals. But most of all, the personally rewarding (and frankly unexpected) product of this process has been seeing how teaching and learning so elegantly complement and inform one another. Formulating lesson plans, giving demos, and being able to simplify concepts and practices down to something easily understandable acts as a testament for how well you've actually learned that thing. Following the cycle of learning to teaching has become a great way for me to judge my understanding of something I practice. It acts as a meter to indicate what stage of learning or teaching I'm at (and when to switch focuses to balance those out).
 
 ### Go Forth and Learn/Teach!
 
