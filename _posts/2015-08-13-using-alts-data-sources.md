@@ -1,11 +1,17 @@
 ---
 layout: post
-title: Alt Data Sources By Example
+title: Using Alt Data Sources
 author: Zach Perrault
 date: 2015-08-13 12:00:00
 comments: true
 ---
 
+
+
+<center>
+  <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">We did something crazy today. We chose a framework and promised we wouldn&#39;t change it for a _whole_ year. <a href="https://twitter.com/hashtag/javascript?src=hash">#javascript</a> <a href="https://twitter.com/hashtag/react?src=hash">#react</a> <a href="https://twitter.com/TrunkClubTech">@TrunkClubTech</a></p>&mdash; Peter Piekarczyk (@peterpme) <a href="https://twitter.com/peterpme/status/626190340844687361">July 29, 2015</a></blockquote>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
 
 {% highlight javascript %}
 // src/alt-instance.es6
