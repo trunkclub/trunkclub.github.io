@@ -7,13 +7,13 @@ comments: true
 ---
 
 
-```js
+{% highlight javascript %}
 // src/alt-instance.es6
 import Alt from 'alt'
 export default new Alt()
-```
+{% endhighlight %}
 
-```js
+{% highlight javascript %}
 // src/actions/data-actions.es6
 import alt from 'alt-instance'
 
@@ -28,9 +28,9 @@ class DataActions {
 }
 
 export default alt.createActions(DataActions)
-```
+{% endhighlight %}
 
-```js
+{% highlight javascript %}
 // src/sources/data-source.es6
 import axios from 'axios'
 import DataActions from 'actions/data-actions'
@@ -51,9 +51,9 @@ const DataSource = {
 }
 
 export default DataSource
-```
+{% endhighlight %}
 
-```js
+{% highlight javascript %}
 // src/stores/data-store.es6
 import alt from 'alt-instance'
 import React from 'react'
@@ -90,11 +90,11 @@ class DataStore {
     console.error(error)
   }
 }
-```
+{% endhighlight %}
 
-
-```js
+{% highlight javascript %}
 // src/components/data-display.es6
+// <DataDisplay datumId={12} />
 import React from 'react'
 import connectToStores from 'alt/utils/connectToStores'
 
@@ -129,5 +129,4 @@ const DataDisplay = React.createClass({
 })
 
 export default connectToStores(DataDisplay)
-
-```
+{% endhighlight %}
