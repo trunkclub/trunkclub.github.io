@@ -11,7 +11,7 @@ categories:
 author: Zach Perrault
 ---
 
-The Trunk Club tech team recently committed to using [Alt](http://alt.js.org) [for a year](https://twitter.com/peterpme/status/626190340844687361). One of the more interesting features of Alt are [data sources](http://alt.js.org/docs/async).
+The Trunk Club tech team recently committed to using [Alt](http://alt.js.org) [for a year](https://twitter.com/peterpme/status/626190340844687361). One of the more interesting features of Alt is [data sources](http://alt.js.org/docs/async).
 
 Data sources provide several features around async requests:
 
