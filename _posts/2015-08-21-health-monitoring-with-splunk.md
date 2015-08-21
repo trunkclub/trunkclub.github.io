@@ -10,7 +10,7 @@ At Trunk Club, we care a lot about the stability and uptime of our platform. Exp
 <!--more-->
 We have a lot of metrics that can easily be measured by network traffic - anything that happens synchronously is generally easy to diagnose. If an HTTP call fails for some reason - be it network partitioning, an error in the receiving service, or something totally different - we are alerted in Honeybadger. Anything mission-critical we run on Celluloid workers via Sidekiq so we have some insight into failures and tools to retry.
 
-But for health metrics that aren’t baked into HTTP requests - things like database records that are explicitly exposed as a CRUD layer - how do you keep track of those?
+But for health metrics that aren’t baked into HTTP requests - things like database records that are not explicitly exposed as a CRUD layer - how do you keep track of those?
 
 Here’s what we came up with.
 
