@@ -10,3 +10,5 @@ github_username:  trunkclub
 
 # Build settings
 markdown: kramdown
+
+encoding: utf-8
