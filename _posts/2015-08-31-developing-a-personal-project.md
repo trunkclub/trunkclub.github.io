@@ -6,7 +6,7 @@ comments: true
 author: Jennie Chamberlin
 ---
 
-Being an apprentice at Trunk Club has been a great experience, and part of the experience is developing your own personal project. Over the course of my apprenticeship, I had to find an idea, pitch a product, and learn about the associated technologies and systems required to make the project come to life. The whole process taught me a lot about what it means to be a developer with an entrepreneurial spirit.
+Being an apprentice at Trunk Club is a great experience, and part of the experience is developing your own personal project. Over the course of my apprenticeship, I had to find an idea, pitch a product, and learn about the associated technologies and systems required to make the project come to life. The whole process taught me a lot about what it means to be a developer with an entrepreneurial spirit.
 
 <!--more-->
 
