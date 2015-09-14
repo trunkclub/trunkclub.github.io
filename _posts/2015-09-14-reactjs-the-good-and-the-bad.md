@@ -66,3 +66,7 @@ PS: Here is the full list of technologies we’re using in our newer application
 [Object-Path](https://github.com/mariocasciaro/object-path)
 [Alt](http://alt.js.org/)
 [Babel](http://babeljs.org)
+
+===
+
+[Jason Block](mailto:jason@jasontheblock.com) is a front-end developer at Trunk Club, and he occasionally spews word vomit on twitter [@jasontheblock](https://www.twitter.com/jasontheblock).
