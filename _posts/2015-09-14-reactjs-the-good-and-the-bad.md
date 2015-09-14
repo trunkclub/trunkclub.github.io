@@ -61,11 +61,11 @@ We've had 100% React applications in production for a few months now, and we're 
 
 PS: Here is the full list of technologies we’re using in our newer applications:
 
-[Webpack](https://webpack.github.io/)
-[React](https://facebook.github.io/react/)
-[Object-Path](https://github.com/mariocasciaro/object-path)
-[Alt](http://alt.js.org/)
-[Babel](http://babeljs.org)
+- [Webpack](https://webpack.github.io/)
+- [React](https://facebook.github.io/react/)
+- [Object-Path](https://github.com/mariocasciaro/object-path)
+- [Alt](http://alt.js.org/)
+- [Babel](http://babeljs.org)
 
 ===
 
