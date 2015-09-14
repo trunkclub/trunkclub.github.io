@@ -38,7 +38,7 @@ Most of our engineering work is for internal applications--warehouse management 
 Nowadays, we maintain a repository with shared ES6 (or ES2015/2016) components that we can pull into our applications with NPM. We don't need our systems to be paint-by-numbers, but there [atomic pieces](http://atomicdesign.bradfrost.com/chapter-2/) of interface logic that can easily be shared. And with React's component model (and a little help from Babel and Webpack), we have an ironclad contract as to the component's lifecycle in the application.
 
 
-## So should you use React in your javascript applications? ¯\_ಠ ͟ʖಠ_/¯
+## So should you use React in your javascript applications? ¯\\\_ಠ ͟ʖಠ_/¯
 
 ### You already use [Webpack](https://webpack.github.io/) or something similar
 
