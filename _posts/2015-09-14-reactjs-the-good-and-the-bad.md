@@ -59,7 +59,7 @@ Manually rendering views is painful, especially when the applications get more a
 
 We've had 100% React applications in production for a few months now, and we're not looking back. Do you use React in production? Let us know!
 
-PS: Here is the full list of technologies we’re using in our newer applications:
+PS: Here is a list of some neat technologies we’re using in our newer applications:
 
 - [Webpack](https://webpack.github.io/)
 - [React](https://facebook.github.io/react/)
