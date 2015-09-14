@@ -64,7 +64,7 @@ PS: Here is a list of some neat technologies we’re using in our newer applicat
 - [React](https://facebook.github.io/react/)
 - [Object-Path](https://github.com/mariocasciaro/object-path)
 - [Alt](http://alt.js.org/)
-- [Babel](http://babeljs.org)
+- [Babel](http://babeljs.io)
 
 ===
 
