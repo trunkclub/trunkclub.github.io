@@ -69,3 +69,5 @@ PS: Here is a list of some neat technologies we’re using in our newer applicat
 ===
 
 [Jason Block](mailto:jason@jasontheblock.com) is a front-end developer at Trunk Club, and he occasionally spews word vomit on twitter [@jasontheblock](https://www.twitter.com/jasontheblock).
+
+ALSO: If you want to write React applications with us, [we're hiring](https://boards.greenhouse.io/trunkclub/jobs/44920)! 
