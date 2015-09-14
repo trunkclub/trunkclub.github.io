@@ -5,7 +5,6 @@ author: Jason Block
 categories:
 - javascript
 ---
-# React.js: The Good and The Bad
 
 There have been many [blog](http://techblog.netflix.com/2015/01/netflix-likes-react.html) [posts](http://yahooeng.tumblr.com/post/101682875656/evolving-yahoo-mail) by tech companies about how [React.js](https://facebook.github.io/react) has helped them solve a myriad of problems and make awesome interfaces. We've been using it for about six months across many of our applications and can't keep quiet about it any longer: We love it! Here's a list of reasons why it has helped us immensely, and some warts that we're still working out.
 
