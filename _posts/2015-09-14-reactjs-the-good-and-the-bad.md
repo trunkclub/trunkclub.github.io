@@ -10,13 +10,15 @@ There have been many [blog](http://techblog.netflix.com/2015/01/netflix-likes-re
 
 <!--more-->
 
-## The Bad (ಥ﹏ಥ)
+As a disclaimer: this was pulled from our personal experiences. Your mileage may vary. And it's Javascript so...you know...anything can happen. 
+
+## The things we didn't love (ಥ﹏ಥ)
 
 ### Imperative programming instincts
 One of the first pull-requests made to our first 100% React application was to include [jQuery](http://jquery.com/) (since the engineer wanted to call `$('.js-class').slideDown()`). The declarative nature of React makes a ton of sense when presenting a document, but our brains jump to an imperative model when we think about modeling the complex state changes of an interactive application. As a community, however, we're starting to think differently. Take Cheng Lou's [React Motion](https://github.com/chenglou/react-motion) library for example--it lets you model animations and transitions as dynamic values affected by physical constants, but in a declarative way. 
 
 ### A fair amount of wheel-reinventing
-Speaking of jQuery, we didn't have the time to make our own internal version of [Foundation](http://foundation.zurb.com/), so we decided to use [Foundation](http://foundation.zurb.com/)! The downside is that many of the more advanced features of Foundation depend on javascript, and in particular they depend on jQuery. This meant that things like dropdown menus had to be rebuilt by our teams in React or sourced from other projects. Don't forget about the hundreds of billions of jQuery plugins out there that many of us have subconsciously become dependent upon.
+Speaking of jQuery, we didn't have the time to make our own internal version of [Foundation](http://foundation.zurb.com/), so we decided to use [Foundation](http://foundation.zurb.com/)! The downside is that many of the more advanced features of Foundation depend on javascript, and in particular they depend on jQuery. This meant that things like dropdown menus had to be rebuilt by our teams in React or sourced from other projects. Don't forget about the hundreds of billions of jQuery plugins out there that many of us have subconsciously become dependent upon. Yes, you can wrap a jQuery plugin in a React component, but do you want to spend engineering time doing that?
 
 ### It's bright and shiny and everyone wants to keep painting it chrome
 Flux frameworks! ES7! Generators! Babel! There are so many new and shiny things coming out of the front-end community. This is great! It means that the community is active and excited. New language specifications mean that our applications can be even more dynamic, but all of these bright new toys have caused some fatigue amongst our engineers. It hurts the confidence in our tooling choices when the community **constantly encourages and pushes these new toys as dogma**. The common joke around here is "this React pull-request looks good, but when are we going to rewrite it?” To combat this, we’ve picked a few core technologies that we’re going to stick with, even if the Music Man comes to town and starts singing the praises of New Javascript Framework X. 
@@ -24,7 +26,7 @@ Flux frameworks! ES7! Generators! Babel! There are so many new and shiny things 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">JavaScript for Millennials via <a href="https://twitter.com/devboy_org">@devboy_org</a> <a href="http://t.co/kNNHYoVgs2">pic.twitter.com/kNNHYoVgs2</a></p>&mdash; Jesse Warden (@jesterxl) <a href="https://twitter.com/jesterxl/status/598885321808424960">May 14, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## The Good! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+## The things we loved! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 
 ### It fit our engineering culture's programming model
 There is absolutely no reason why you can't make a powerful web application with [Ember.js](http://emberjs.com/), [Angular.js](https://angularjs.org/), [Backbone.js](http://backbonejs.org/), or even regular, [framework-less javascript](http://vanilla-js.com/). But with the way we staff our team, **we needed something that appealed to the instincts of an engineer that works across the entire stack of our systems**. For that, we needed a declarative way to generate a user-interface--a “function” that took in data, produced HTML elements on the page, and afforded componentization and interactivity. It turned out that a framework with built-in MVC-like patterns was overkill for our applications. Using React lets us build reliable applications faster and **makes it incredibly straightforward for new engineers to understand what is going on**. 
