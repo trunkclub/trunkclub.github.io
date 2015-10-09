@@ -78,3 +78,6 @@ we get back the payload that we configured in Apiary:
         "message": "World"
       }
     ]
+
+### How we've used it at Trunk Club
+My team and I used this feature recently while developing a new React application. There were a few endpoints that did not exist yet in the service level, but we thought it was more important to get a rough draft of our application before setting up those endpoints. Our solution was to stub out these endpoints using the above strategy, and create the endpoints in the service-layer afterward. This allowed us a lot of flexibility with negotiating a contract between the front and back end.
