@@ -6,7 +6,7 @@ categories:
 - javascript
 ---
 
-When building a front-end application in a microservice architecture you may find yourself waiting for other developers to complete the back-end so that you know what endpoints you have to work with. Here I will discuss how to use [Apiary](https://apiary.io/) to reduce this waiting time.
+When building a front-end application in a microservice architecture I've often found myself waiting for other developers to complete the back-end so that I know what endpoints I have to work with. Recently, I've been using [Apiary](https://apiary.io/) to reduce this waiting time.
 
 ### Apiary
 Apiary is a tool used for designing, documenting, and testing APIs. In addition, it has a tool called a _mock server_ which is described on their [website](https://apiary.io/) as
