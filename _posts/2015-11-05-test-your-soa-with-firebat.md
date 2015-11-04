@@ -28,9 +28,13 @@ resource. This may be a shopping cart, an identity provider, or any one of your
 services.
 
 A flow is a set of service calls. Flows need not be service-specific. They can
-span many services, but they define a specific workflow. For instance, to add
-an item to a cart you may need to verify that the product exists, that it is
-available, and then actually reserve it.
+span many services, but they define a specific workflow. Take, for instance,
+what happens when a user selects a product to add to their cart, or bag, or
+order. What happens behind the scenes? Likely the product is validated, maybe
+cart information is validated, the availability of the product is verified,
+and a reservation may be placed, depending on how the shopping experience is
+orchestrated. A flow could run each of these steps sequentially and show you
+what the output is.
 
 A process is a set of flows. A process may be something like "shop an order,
 ship it, then return it completely." This leverages multiple flows and chains
@@ -48,3 +52,6 @@ _Interested in what you've read on the Trunk Club blog? Want to join the best-
 dressed tech team in Chicago? Check out our
 [Engineering Page](https://www.trunkclub.com/engineering) to see open positions
 and learn more._
+
+_P.S. Are you super interested in testing SOA architectures effectively?
+Join our Engineers in Test - [Engineering Careers](https://www.trunkclub.com/careers)_
