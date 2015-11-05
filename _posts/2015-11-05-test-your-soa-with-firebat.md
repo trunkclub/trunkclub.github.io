@@ -19,6 +19,7 @@ you can write flexible smoke tests to find problems in your workflows
 early.
 
 There are three main components of testing with Firebat:
+
 * Service
 * Flow
 * Process
