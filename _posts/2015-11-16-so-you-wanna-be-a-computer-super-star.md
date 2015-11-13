@@ -47,7 +47,7 @@ It's obvious that writing code could never amount to the thrill and excitement o
 
 At the end of the day, I like Trunk Club because the people I work with exhibit these qualities. *They teach me something new every day* (often the same thing for multiple days because I can never remember how to provision a server) They're an invested bunch that take ownership of what they make, and love seeing projects through.They'll motivate me to work on a project I mentioned awhile back that might make our lives a little easier. Even if it goes nowhere, they'll encourage me to fail because that's the best way to grow. It's inspiring, and makes me want to constantly improve. That's the energy that keeps it from feeling like I'm getting up for the grind, but more like I'm heading into a library to focus on some projects.
 
-_Wanna show us your metaphorical guitar solo? Give our [Engineering Page](https://www.trunkclub.com/engineering) a look send us a message_
+_Wanna show us your metaphorical guitar solo? Give our [Engineering Page](https://www.trunkclub.com/engineering) a look and send us a message_
 
 UPDATE:
 _Actually, I recently found out many of my coworkers record rock music. Now that I think about it, maybe there is such a thing as a **rockstar developer**._
