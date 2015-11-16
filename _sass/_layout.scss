@@ -8,18 +8,32 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    background: #151e28;
+    img {
+      height: 20px;
+    }
 }
 
 .site-title {
     font-size: 26px;
-    line-height: 56px;
+    line-height: 51px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    width: 100%;
 
     &,
     &:visited {
         color: $grey-color-dark;
+    }
+
+    .title-text {
+      color: rgba(255, 255, 255, 0.3);
+      float: right;
+      top: 1px;
+      font-size: 30px;
+      font-variant: small-caps;
+      font-family: Helvetica, Arial, sans-serif;
     }
 }
 
