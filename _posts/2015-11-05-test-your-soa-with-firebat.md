@@ -2,6 +2,8 @@
 layout: post
 title: ! 'Test your SOA with Firebat'
 author: Jeff Meyers
+headshot: https://trunkclub-avatars.s3.amazonaws.com/employee/thumb/thumb_072d3e4369a17dda5831031c1adfd9f7.jpg?03112016150216
+date: 'November 5, 2016'
 categories:
 - SOA
 - ruby
@@ -10,7 +12,7 @@ categories:
 
 Service-oriented architectures are notoriously difficult to test effectively.
 Unit tests only cover an individual service, and if responses are stubbed and
-that endpoint's contract changes, your on-call engineers aren't going to be
+that endpoint\'s contract changes, your on-call engineers aren\'t going to be
 too thrilled.
 
 So how can you write tests across your services that give you confidence to
@@ -46,10 +48,10 @@ These 3 concepts have helped us at Trunk Club to write out a suite of smoke
 tests across our services, and to start catching problems before deploys.
 Thorough documentation and example are available on the
 [Github](https://github.com/trunkclub/firebat) page. We hope this helps you
-wrangle your company's SOA smoke testing, and encourage pull requests and
+wrangle your company\'s SOA smoke testing, and encourage pull requests and
 feedback.
 
-_Interested in what you've read on the Trunk Club blog? Want to join the best-
+_Interested in what you\'ve read on the Trunk Club blog? Want to join the best-
 dressed tech team in Chicago? Check out our
 [Engineering Page](https://www.trunkclub.com/engineering) to see open positions
 and learn more._

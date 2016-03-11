@@ -3,6 +3,7 @@ layout: post
 title: "Brunch with Panache 0.9.0 Released"
 date: 2014-10-18 18:08
 comments: true
+headshot: https://res.cloudinary.com/trunk-club/image/upload/gazjgqce7n61r00bjftm.jpg
 categories: 
   - programming
   - ui

@@ -3,10 +3,14 @@ layout: post
 title: Programming on the Command Line
 author: Joel Ash
 comments: true
+headshot: https://res.cloudinary.com/trunk-club/image/upload/lz48izexstvuetd6kwkr.jpg
 categories:
 - cli
 - programming
 ---
+
+Recently it dawned on me that one of the most useful things I\'ve learned since college was actually one of the older technologies when it comes to computers: the unix command line and how to \"program\" using it.
+<!--more-->
 
 ## The command line is your friend
 

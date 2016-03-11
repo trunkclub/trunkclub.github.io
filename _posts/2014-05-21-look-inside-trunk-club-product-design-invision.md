@@ -3,6 +3,7 @@ layout: post
 title: "A Look Inside Trunk Club Product Design by InVision"
 date: 2014-05-21 15:20
 comments: true
+headshot: https://res.cloudinary.com/trunk-club/image/upload/wxwbxjc6h2ingr2kslhy.jpg
 categories:
   - design
   - ux

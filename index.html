@@ -2,21 +2,34 @@
 layout: default
 ---
 
-<div class="home">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+{% for post in site.posts %}
+  <div class="post">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
+    {% if post.hero %}
+    <div class="hero" data-hero="{{post.hero}}">
+      <h2>{{ post.title }}</h2>
+    </div>
+    {% else %}
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    {% endif %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <hr />
+    {{ post.excerpt }}
 
-</div>
+    <div class="post_details">
+      <img class="headshot" data-img="{{ post.headshot }}" />
+
+      <div class="author_date">
+        {{ post.author }}
+        <span>
+          | {{ post.date | date: "%b %-d, %Y" }}
+        </span>
+      </div>
+    </div>
+
+  </div>
+
+{% endfor %}

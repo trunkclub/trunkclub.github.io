@@ -5,6 +5,7 @@ author: Jeff Meyers
 date:   2015-07-17 22:38:28
 categories: culture pairing
 comments: true
+headshot: https://trunkclub-avatars.s3.amazonaws.com/employee/thumb/thumb_072d3e4369a17dda5831031c1adfd9f7.jpg?03112016150216
 excerpt_separator: <!--more-->
 ---
 

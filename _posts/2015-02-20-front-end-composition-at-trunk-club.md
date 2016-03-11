@@ -4,6 +4,7 @@ title: "Front-end composition at Trunk Club"
 date: 2015-02-20 11:50
 author: Josh Habdas
 comments: true
+headshot: https://res.cloudinary.com/trunk-club/image/upload/gazjgqce7n61r00bjftm.jpg
 categories:
   - programming
   - ui

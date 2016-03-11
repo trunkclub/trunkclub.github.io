@@ -3,6 +3,7 @@ layout: post
 title: "Open sourcing our code style guide"
 date: 2014-04-30 20:02
 comments: true
+headshot: https://res.cloudinary.com/trunk-club/image/upload/gazjgqce7n61r00bjftm.jpg
 categories:
   - programming
 author: Josh Habdas

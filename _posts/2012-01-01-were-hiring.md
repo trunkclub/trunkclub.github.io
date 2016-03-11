@@ -2,6 +2,7 @@
 layout: post
 title: We're hiring!
 author: Neil Kamireddy
+headshot: https://res.cloudinary.com/trunk-club/image/upload/r2j140dzwqihblencz1a.jpg
 categories:
 - careers
 ---

@@ -3,6 +3,7 @@ layout: post
 title: When Life Gives You Racks....
 author: Joel Ash
 comments: true
+headshot: https://res.cloudinary.com/trunk-club/image/upload/lz48izexstvuetd6kwkr.jpg
 categories:
 ---
 build standing pairing stations.

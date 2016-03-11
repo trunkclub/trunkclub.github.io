@@ -2,6 +2,7 @@
 layout: post
 title: "Movember + “do the tiger!” (@neilkam)"
 author: Neil Kamireddy
+headshot: https://res.cloudinary.com/trunk-club/image/upload/r2j140dzwqihblencz1a.jpg
 categories:
 published: true
 ---

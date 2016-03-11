@@ -3,6 +3,7 @@ layout: post
 title: Using Alt's Data Sources
 date: 2015-08-13 17:00
 comments: true
+headshot: https://trunkclub-avatars.s3.amazonaws.com/employee/thumb/thumb_34319424a794f9a0c6ed84297c9ebdf7.jpg?02232016104907
 categories:
   - alt
   - react

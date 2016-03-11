@@ -4,6 +4,7 @@ published: true
 title: Moving from Tumblr to Octopress
 comments: true
 author: Josh Habdas
+headshot: https://res.cloudinary.com/trunk-club/image/upload/gazjgqce7n61r00bjftm.jpg
 tags: 
   - octopress
   - jekyll

@@ -3,11 +3,13 @@ layout: post
 title: Investing in Growth through Teaching and Learning
 author: Matthew Bush
 date: 2015-08-06 14:55:06
+headshot: https://trunkclub-avatars.s3.amazonaws.com/employee/thumb/thumb_f021c6af0726db853ff16cf0612ac73d.jpg?12102015172351
 comments: true
-excerpt_separator: <!--more-->
+hero: http://localhost:4000/assets/SI.jpeg
 ---
 
-![Startup Institute students](/assets/SI.jpeg)
+There are a few core qualities we try to uphold as an engineering team, one of these (well, more of a two-for-one) is to balance the roles of both a **teacher** and a **learner**. For better or for worse, I've never had a problem upholding the learner end of the bargain. Since the beginning of my Trunk Club career I've traversed the spectrum from product design to front-end development to iOS, spanning internal and consumer facing experiences alike. 
+<!--more-->
 
 ### The Teacher/Learner Dichotomy
 

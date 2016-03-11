@@ -3,6 +3,7 @@ layout: post
 title: Effective Interview Coding Exercises
 author: Ross Bell
 date: 2015-07-23 14:55:06
+headshot: https://res.cloudinary.com/trunk-club/image/upload/vtsuijedhzkjomoeiz1j.jpg
 comments: true
 excerpt_separator: <!--more-->
 ---

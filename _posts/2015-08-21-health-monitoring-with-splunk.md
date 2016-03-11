@@ -3,11 +3,12 @@ layout: post
 title: Monitoring Distributed System Health with Ruby, Splunk, and Honeybadger
 date: 2015-08-21 10:45
 comments: true
+headshot: https://trunkclub-avatars.s3.amazonaws.com/employee/thumb/thumb_072d3e4369a17dda5831031c1adfd9f7.jpg?03112016150216
 author: Jeff Meyers
 ---
 At Trunk Club, we care a lot about the stability and uptime of our platform.
 Experimenting with different solutions to effectively monitor everything going
-on in a distributed system is tough (but rewarding!) and we're trying to
+on in a distributed system is tough (but rewarding!) and we\'re trying to
 improve all the time.
 
 <!--more-->
@@ -33,17 +34,17 @@ Ruby:
 
 
 {% highlight ruby %}
-require 'bundler'
+require \'bundler\'
 Bundler.setup(:default)
-require 'httparty'
-require 'honeybadger'
+require \'httparty\'
+require \'honeybadger\'
 
 HEALTH_ENDPOINTS = {
-  'foo' => 'bar/health'
+  \'foo\' => \'bar/health\'
 }
 
-CHECK_EVERY_SECONDS = ENV.fetch('CHECK_EVERY_SECONDS').to_i
-API_URL = ENV.fetch('API_URL')
+CHECK_EVERY_SECONDS = ENV.fetch(\'CHECK_EVERY_SECONDS\').to_i
+API_URL = ENV.fetch(\'API_URL\')
 
 loop do
   HEALTH_ENDPOINTS.each do |service_name, endpoint|
@@ -52,23 +53,23 @@ loop do
 
     if response.code != 200
       Honeybadger.notify({
-        error_class: 'HealthEndpointUnavailable',
+        error_class: \'HealthEndpointUnavailable\',
         error_message: "Health endpoint at #{full_path} did not return 200.",
         context: { path: full_path }
       })
       next
     end
 
-    metrics = response.fetch('metrics', [])
+    metrics = response.fetch(\'metrics\', [])
     metrics.each do |metric|
-      name = metric.fetch('name', '')
-      value = metric.fetch('value', '')
+      name = metric.fetch(\'name\', \'\')
+      value = metric.fetch(\'value\', \'\')
       payload = {
         service: service_name,
         metric: name,
         value: value
       }
-      log('measurement', payload)
+      log(\'measurement\', payload)
     end
   end
 
@@ -83,4 +84,4 @@ an added bonus, any time a `/health` endpoint is unavailable, our worker
 complains to Honeybadger, so we have extra monitoring for uptime.
 
 Reliability is important, but this is just one of the many approaches towards a
-solution. Let us know how you've tried to solve this issue in the comments.
+solution. Let us know how you\'ve tried to solve this issue in the comments.

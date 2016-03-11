@@ -3,6 +3,7 @@ layout: post
 title: Chaplin Collection Views Using CSS Transitions
 date: 2014-03-02 13:43
 comments: true
+headshot: https://res.cloudinary.com/trunk-club/image/upload/gazjgqce7n61r00bjftm.jpg
 categories:
   - programming
   - ui

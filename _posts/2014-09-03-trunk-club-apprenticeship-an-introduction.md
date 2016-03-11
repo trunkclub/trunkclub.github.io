@@ -3,6 +3,7 @@ layout: post
 title: "Trunk Club Apprenticeship: An Introduction"
 date: 2014-09-03 17:09
 comments: true
+headshot: https://trunkclub-avatars.s3.amazonaws.com/employee/thumb/thumb_4b4d214100c6f521033a588a8cfc0c81.jpg?12182015102656
 categories: 
   - apprenticeship
 author: Amelia Padua

@@ -3,6 +3,7 @@ layout: post
 title: "Avoiding Front-End SPOF in Single-Page Apps"
 date: 2014-07-08 18:24
 comments: true
+headshot: https://res.cloudinary.com/trunk-club/image/upload/gazjgqce7n61r00bjftm.jpg
 categories: 
   - programming
   - ui

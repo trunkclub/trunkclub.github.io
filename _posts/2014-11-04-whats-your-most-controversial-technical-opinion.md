@@ -3,6 +3,7 @@ layout: post
 title: "What's Your Most Controversial Technical Opinion?"
 date: 2014-11-04 16:49
 comments: true
+headshot: https://res.cloudinary.com/trunk-club/image/upload/vtsuijedhzkjomoeiz1j.jpg
 categories:
 author: Ross Bell
 ---

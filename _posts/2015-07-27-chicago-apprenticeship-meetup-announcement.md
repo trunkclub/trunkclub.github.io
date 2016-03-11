@@ -4,6 +4,7 @@ title: Chicago Apprenticeship Meetup Announcement
 author: Amelia Padua
 date: 2015-07-25 14:55:06
 comments: true
+headshot: https://trunkclub-avatars.s3.amazonaws.com/employee/thumb/thumb_4b4d214100c6f521033a588a8cfc0c81.jpg?12182015102656
 excerpt_separator: <!--more-->
 ---
 
